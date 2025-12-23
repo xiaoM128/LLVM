@@ -73,7 +73,7 @@ jobs:
           fi
 
           echo "Downloading LLVM source (revision $LLVM_REV)..."
-          curl -o https://github.com/komimoe/Hikari/archive/refs/heads/llvm-21.x.zip
+          curl -o llvm-project.tar.gz https://github.com/komimoe/Hikari/archive/refs/heads/llvm-21.x.zip
           unzip llvm*
           rm rf llvm-21.x.zip
 
