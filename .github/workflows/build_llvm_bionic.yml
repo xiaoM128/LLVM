@@ -28,7 +28,7 @@ jobs:
       fail-fast: false
       matrix:
         # riscv64-linux-android
-        target: [aarch64-linux-android, armv7a-linux-androideabi, i686-linux-android, x86_64-linux-android]
+        target: [aarch64-linux-android]
     runs-on: ubuntu-24.04
     env:
       ANDROID_PLATFORM: 25
