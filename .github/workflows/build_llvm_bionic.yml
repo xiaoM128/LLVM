@@ -73,6 +73,9 @@ jobs:
           fi
 
           echo "Downloading LLVM source (revision $LLVM_REV)..."
+          git clone https://github.com/komimoe/Hikari.git
+          mv Hikari/* $ROOTDIR
+          rm -rf $ROOTDIR/.git
           
 
           echo "Cloning llvm_android at commit $ANDROID_REV..."
