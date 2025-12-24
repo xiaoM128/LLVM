@@ -73,7 +73,7 @@ jobs:
           fi
 
           echo "Downloading LLVM source (revision $LLVM_REV)..."
-          git clone https://github.com/komimoe/Hikari.git
+          git clone https://github.com/xiaoM128/Hikari-2.git
           mv Hikari/* $ROOTDIR
           rm -rf $ROOTDIR/.git
           
